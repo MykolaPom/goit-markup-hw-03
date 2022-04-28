@@ -1,0 +1,235 @@
+:root {
+  --basic-color: #FFFFFF;
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196F3;
+  --bg-color-dark: #2F303A;
+  --bg-color-light: #F5F4FA;
+
+}
+
+body {
+  color: var(--main-text-color);
+  background-color: var(--basic-color);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+.logo{
+  color: var(--accent-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.logo-header{
+  color: var(--main-text-color);
+}
+
+.logo-footer {
+  color: var(--basic-color);
+}
+
+.list {
+  list-style: none;
+}
+.list .item {
+  color: var(--main-text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.list .item-current {
+  color: var(--accent-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.list .item:hover,
+.list .item:focus {
+  color: var(--accent-color);
+}
+
+.contacts {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.contacts:hover,
+.contacts:focus {
+  color: var(--accent-color);
+}
+
+.hero{
+  background-color: var(--bg-color-dark);
+}
+
+.hero-title{
+  color: var(--basic-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.buttons {
+  list-style: none;
+}
+
+.btn-hero{
+  background-color: var(--accent-color);
+  color: var(--basic-color);
+  cursor: pointer;
+  border-style: none;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+}
+
+.btn-hero:hover {
+  background-color: #188CE8;
+}
+
+.btn-filter {
+  background-color: var(--bg-color-light);
+  color: currentColor;
+  border-style: none;
+  font-family: inherit;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62; 
+  letter-spacing: 0.03em;
+  text-align: center;
+  border-radius: 4px;
+  padding: 6px 22px;
+}
+
+.btn-filter:hover,
+.btn-filter:focus {
+  color: var(--basic-color);
+  background-color: var(--accent-color);
+}
+
+.btn-filter.active {
+  color: var(--basic-color);;
+  background-color: var(--accent-color);
+}
+
+.link-filter {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.list-title {
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.projects-list .list-title {
+  color: var(--main-text-color);
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: none;
+
+}
+
+.paragraph {
+  color: var(--secondary-text-color);
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.team-paragraph {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.team-block {
+  background-color: var(--basic-color);
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team{
+  background-color: var(--bg-color-light);
+}
+
+.teammate {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.footer {
+  background-color: var(--bg-color-dark);
+}
+
+.link-address {
+  font-style: normal;
+  text-decoration: none;
+}
+
+.address .footer-address {
+  color: var(--basic-color);
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.footer-link {
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-color);
+}
