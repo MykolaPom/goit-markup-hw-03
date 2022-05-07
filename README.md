@@ -1,6 +1,5 @@
-# goit-markup-hw-02
+# goit-markup-hw-03
 
 What's new?
-- index.html - amended
-- portfolio.html - created
-- css styles - added to each abovementioned page
+- markkup mistakes fixed;
+- positioning using Flexbox performed.
